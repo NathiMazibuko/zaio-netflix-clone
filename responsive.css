@@ -1,0 +1,141 @@
+@media (max-width: 700px) {
+    .main-and-footer {
+    padding: 20px 40px;
+    }
+    
+    h1 {
+    font-size: 40px;
+    font-weight: 755;
+    letter-spacing: -4.5px;
+    }
+
+    h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    }
+
+    h3 {
+    font-size: 16px;
+    font-weight: 400;
+    }
+
+    button {
+    font-size: 20px;
+    font-weight: 600;
+    height: 56px;
+
+    width: 200px;
+    padding: 0;
+    border: none;
+
+    gap: 13px;
+    }
+
+    .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 23px;
+    }
+
+    .logo {
+        height: 3rem;
+        width: 6rem;
+    }
+
+    .hero-headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10% 10% 0 10%;
+    }
+
+    .hero-form-headline {
+        padding: 0 10%;
+    }
+
+    .hero-input-and-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    }
+
+    .trailer-viewer-container {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        height: 260px;
+    }
+
+    .trailer-viewer {
+    border: none;
+    height: 70%;
+    width: 100%;
+    }
+
+    .reasons-to-join-container {
+        margin: 0;
+        height: 55rem;
+    }
+
+    .reasons-to-join-heading {
+        margin: 0;
+    }
+
+    .reasons-to-join-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    margin: 20px 0 30px 0;
+    gap: 12px;
+    }
+
+    .card {
+        height: 200px;
+        width: 100%;
+    }
+
+    .card-image-container {
+        align-items: flex-end;
+    }
+
+    .faq-container {
+        width: 100%;
+    }
+
+    .faq-item {
+        font-size: 20px;
+    }
+
+    .body-form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .body-form-headline {
+        text-align: left;
+    }
+
+    .body-form-input {
+        width: 100%;
+    }
+
+    .body-input-and-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    width: 100%;
+    }
+
+    .footer-links-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
